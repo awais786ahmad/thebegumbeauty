@@ -1,0 +1,1591 @@
+{
+ "brands": [
+  {
+   "id": "studio",
+   "name": "Begum Beauty Studio",
+   "note": "House label"
+  },
+  {
+   "id": "velour",
+   "name": "Velour Lab",
+   "note": "Sample brand"
+  },
+  {
+   "id": "maison-kohl",
+   "name": "Maison Kohl",
+   "note": "Sample brand"
+  },
+  {
+   "id": "lumiere",
+   "name": "Lumière Skin",
+   "note": "Sample brand"
+  },
+  {
+   "id": "atelier-nur",
+   "name": "Atelier Nur",
+   "note": "Sample brand"
+  },
+  {
+   "id": "rangoli",
+   "name": "Rangoli Beauty",
+   "note": "Sample brand"
+  }
+ ],
+ "categories": [
+  {
+   "id": "face-makeup",
+   "name": "Face Makeup",
+   "blurb": "Primers, powders and setting sprays",
+   "image": "/assets/images/categories/face-makeup.jpg"
+  },
+  {
+   "id": "lip-products",
+   "name": "Lip Products",
+   "blurb": "Lipsticks, glosses and liners",
+   "image": "/assets/images/categories/lip-products.jpg"
+  },
+  {
+   "id": "eye-makeup",
+   "name": "Eye Makeup",
+   "blurb": "Palettes, mascara and eyeliner",
+   "image": "/assets/images/categories/eye-makeup.jpg"
+  },
+  {
+   "id": "foundations-concealers",
+   "name": "Foundations and Concealers",
+   "blurb": "Shades for every Pakistani skin tone",
+   "image": "/assets/images/categories/foundations-concealers.jpg"
+  },
+  {
+   "id": "blush-highlighter",
+   "name": "Blush and Highlighter",
+   "blurb": "Flush, glow and sculpt",
+   "image": "/assets/images/categories/blush-highlighter.jpg"
+  },
+  {
+   "id": "brushes-tools",
+   "name": "Makeup Brushes and Tools",
+   "blurb": "Brushes, sponges and applicators",
+   "image": "/assets/images/categories/brushes-tools.jpg"
+  },
+  {
+   "id": "makeup-bundles",
+   "name": "Makeup Bundles",
+   "blurb": "Curated deals under PKR 4,999",
+   "image": "/assets/images/categories/makeup-bundles.jpg"
+  },
+  {
+   "id": "beauty-essentials",
+   "name": "Beauty Essentials",
+   "blurb": "Prep, care and finishing",
+   "image": "/assets/images/categories/beauty-essentials.jpg"
+  }
+ ],
+ "products": [
+  {
+   "id": "velvet-matte-lipstick",
+   "type": "product",
+   "name": "Velvet Matte Lipstick",
+   "brand": "studio",
+   "category": "lip-products",
+   "productType": "Lipstick",
+   "kind": "lipstick",
+   "price": 1850,
+   "originalPrice": 2200,
+   "stock": 42,
+   "rating": 4.8,
+   "reviews": 412,
+   "addedAt": "2026-08-02",
+   "bestseller": true,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "A soft-focus matte lipstick with full colour in one pass. Five shades selected to flatter light, medium and deep skin tones.",
+   "features": [
+    "Full-coverage matte finish",
+    "Comfortable, non-drying feel",
+    "Bullet shaped for precise edges"
+   ],
+   "specs": {
+    "Finish": "Matte",
+    "Net weight": "3.8 g",
+    "Size": "Full size"
+   },
+   "usage": "Start at the centre of the lips and work outwards. Line first with a matching lip liner for a sharper edge.",
+   "images": [
+    "/assets/images/products/velvet-matte-lipstick-1.jpg",
+    "/assets/images/products/velvet-matte-lipstick-2.jpg",
+    "/assets/images/products/velvet-matte-lipstick-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Rosewood",
+     "hex": "#A64F5E"
+    },
+    {
+     "name": "Mulberry",
+     "hex": "#7E2C44"
+    },
+    {
+     "name": "Terracotta Nude",
+     "hex": "#B8705C"
+    },
+    {
+     "name": "Cocoa Kiss",
+     "hex": "#7A4438"
+    },
+    {
+     "name": "Pink Petal",
+     "hex": "#D4848F"
+    }
+   ],
+   "items": [],
+   "tone": "blush",
+   "sku": "HM-VML-529"
+  },
+  {
+   "id": "satin-lip-gloss",
+   "type": "product",
+   "name": "Satin Shine Lip Gloss",
+   "brand": "velour",
+   "category": "lip-products",
+   "productType": "Lip gloss",
+   "kind": "gloss",
+   "price": 1450,
+   "originalPrice": null,
+   "stock": 30,
+   "rating": 4.6,
+   "reviews": 188,
+   "addedAt": "2026-09-12",
+   "bestseller": false,
+   "isNew": true,
+   "featured": false,
+   "status": "published",
+   "description": "A cushiony gloss with a satin shine and a sheer wash of colour. Wear alone or over lipstick.",
+   "features": [
+    "High-shine, non-sticky",
+    "Doe-foot applicator"
+   ],
+   "specs": {
+    "Finish": "Glossy",
+    "Volume": "6 ml"
+   },
+   "usage": "Apply to the centre of the lips and press together.",
+   "images": [
+    "/assets/images/products/satin-lip-gloss-1.jpg",
+    "/assets/images/products/satin-lip-gloss-2.jpg",
+    "/assets/images/products/satin-lip-gloss-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Pink Petal",
+     "hex": "#D4848F"
+    },
+    {
+     "name": "Peach Silk",
+     "hex": "#E3A08C"
+    },
+    {
+     "name": "Clear Glaze",
+     "hex": "#E8C9C2"
+    }
+   ],
+   "items": [],
+   "tone": "rose",
+   "sku": "HM-SLG-991"
+  },
+  {
+   "id": "sculpt-lip-liner",
+   "type": "product",
+   "name": "Sculpt Lip Liner",
+   "brand": "studio",
+   "category": "lip-products",
+   "productType": "Lip liner",
+   "kind": "lipliner",
+   "price": 850,
+   "originalPrice": null,
+   "stock": 64,
+   "rating": 4.5,
+   "reviews": 233,
+   "addedAt": "2026-06-20",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A creamy pencil that defines and holds lipstick in place.",
+   "features": [
+    "Creamy, long-wearing",
+    "Sharpenable"
+   ],
+   "specs": {
+    "Finish": "Satin",
+    "Net weight": "1.2 g"
+   },
+   "usage": "Outline the lips, then fill in lightly to help lipstick last.",
+   "images": [
+    "/assets/images/products/sculpt-lip-liner-1.jpg",
+    "/assets/images/products/sculpt-lip-liner-2.jpg",
+    "/assets/images/products/sculpt-lip-liner-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Rosewood",
+     "hex": "#A64F5E"
+    },
+    {
+     "name": "Mulberry",
+     "hex": "#7E2C44"
+    },
+    {
+     "name": "Terracotta Nude",
+     "hex": "#B8705C"
+    },
+    {
+     "name": "Cocoa Kiss",
+     "hex": "#7A4438"
+    }
+   ],
+   "items": [],
+   "tone": "nude",
+   "sku": "HM-SLL-782"
+  },
+  {
+   "id": "tinted-lip-balm",
+   "type": "product",
+   "name": "Tinted Lip Balm",
+   "brand": "lumiere",
+   "category": "lip-products",
+   "productType": "Lip balm",
+   "kind": "lipstick",
+   "price": 990,
+   "originalPrice": null,
+   "stock": 0,
+   "rating": 4.4,
+   "reviews": 301,
+   "addedAt": "2026-05-05",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A nourishing balm with a soft hint of colour for everyday wear.",
+   "features": [
+    "Sheer colour",
+    "Softening feel"
+   ],
+   "specs": {
+    "Finish": "Sheer",
+    "Net weight": "3.5 g"
+   },
+   "usage": "Apply as often as you like.",
+   "images": [
+    "/assets/images/products/tinted-lip-balm-1.jpg",
+    "/assets/images/products/tinted-lip-balm-2.jpg",
+    "/assets/images/products/tinted-lip-balm-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Rose Tint",
+     "hex": "#B9606E"
+    },
+    {
+     "name": "Berry Tint",
+     "hex": "#8A3A50"
+    }
+   ],
+   "items": [],
+   "tone": "rose",
+   "sku": "HM-TLB-919"
+  },
+  {
+   "id": "second-skin-foundation",
+   "type": "product",
+   "name": "Second Skin Foundation",
+   "brand": "lumiere",
+   "category": "foundations-concealers",
+   "productType": "Foundation",
+   "kind": "foundation",
+   "price": 3400,
+   "originalPrice": 3900,
+   "stock": 26,
+   "rating": 4.7,
+   "reviews": 263,
+   "addedAt": "2026-09-20",
+   "bestseller": true,
+   "isNew": true,
+   "featured": true,
+   "status": "published",
+   "description": "A breathable, medium-coverage foundation with a natural finish that holds up in heat and humidity.",
+   "features": [
+    "Medium, buildable coverage",
+    "Natural finish",
+    "Six shades from porcelain to mocha"
+   ],
+   "specs": {
+    "Finish": "Natural",
+    "Coverage": "Medium, buildable",
+    "Volume": "30 ml"
+   },
+   "usage": "Shake well. Apply one pump with a brush or damp sponge, starting at the centre of the face.",
+   "images": [
+    "/assets/images/products/second-skin-foundation-1.jpg",
+    "/assets/images/products/second-skin-foundation-2.jpg",
+    "/assets/images/products/second-skin-foundation-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Porcelain",
+     "hex": "#F2D9C4"
+    },
+    {
+     "name": "Ivory Beige",
+     "hex": "#E7C6A8"
+    },
+    {
+     "name": "Warm Sand",
+     "hex": "#D7AE88"
+    },
+    {
+     "name": "Honey",
+     "hex": "#C4925F"
+    },
+    {
+     "name": "Caramel",
+     "hex": "#A9774B"
+    },
+    {
+     "name": "Mocha",
+     "hex": "#80553A"
+    }
+   ],
+   "items": [],
+   "tone": "nude",
+   "sku": "HM-SSF-705"
+  },
+  {
+   "id": "soft-blur-concealer",
+   "type": "product",
+   "name": "Soft Blur Concealer",
+   "brand": "lumiere",
+   "category": "foundations-concealers",
+   "productType": "Concealer",
+   "kind": "concealer",
+   "price": 1950,
+   "originalPrice": null,
+   "stock": 38,
+   "rating": 4.6,
+   "reviews": 197,
+   "addedAt": "2026-07-11",
+   "bestseller": true,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A creamy concealer that brightens under-eyes and covers spots without creasing.",
+   "features": [
+    "Crease-resistant",
+    "Blendable cream texture"
+   ],
+   "specs": {
+    "Finish": "Satin",
+    "Volume": "6 ml"
+   },
+   "usage": "Dot under the eyes or on blemishes and tap to blend.",
+   "images": [
+    "/assets/images/products/soft-blur-concealer-1.jpg",
+    "/assets/images/products/soft-blur-concealer-2.jpg",
+    "/assets/images/products/soft-blur-concealer-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Porcelain",
+     "hex": "#F2D9C4"
+    },
+    {
+     "name": "Ivory Beige",
+     "hex": "#E7C6A8"
+    },
+    {
+     "name": "Warm Sand",
+     "hex": "#D7AE88"
+    },
+    {
+     "name": "Honey",
+     "hex": "#C4925F"
+    },
+    {
+     "name": "Caramel",
+     "hex": "#A9774B"
+    }
+   ],
+   "items": [],
+   "tone": "sand",
+   "sku": "HM-SBC-170"
+  },
+  {
+   "id": "matte-fix-foundation",
+   "type": "product",
+   "name": "Matte Fix Foundation",
+   "brand": "velour",
+   "category": "foundations-concealers",
+   "productType": "Foundation",
+   "kind": "foundation",
+   "price": 2750,
+   "originalPrice": null,
+   "stock": 18,
+   "rating": 4.4,
+   "reviews": 121,
+   "addedAt": "2026-04-18",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "An oil-controlling foundation for combination and oily skin.",
+   "features": [
+    "Full coverage",
+    "Soft-matte finish"
+   ],
+   "specs": {
+    "Finish": "Matte",
+    "Coverage": "Full",
+    "Volume": "30 ml"
+   },
+   "usage": "Apply with a brush, working in thin layers.",
+   "images": [
+    "/assets/images/products/matte-fix-foundation-1.jpg",
+    "/assets/images/products/matte-fix-foundation-2.jpg",
+    "/assets/images/products/matte-fix-foundation-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Ivory Beige",
+     "hex": "#E7C6A8"
+    },
+    {
+     "name": "Warm Sand",
+     "hex": "#D7AE88"
+    },
+    {
+     "name": "Honey",
+     "hex": "#C4925F"
+    },
+    {
+     "name": "Caramel",
+     "hex": "#A9774B"
+    },
+    {
+     "name": "Mocha",
+     "hex": "#80553A"
+    }
+   ],
+   "items": [],
+   "tone": "sand",
+   "sku": "HM-MFF-451"
+  },
+  {
+   "id": "cheek-bloom-blush",
+   "type": "product",
+   "name": "Cheek Bloom Blush",
+   "brand": "studio",
+   "category": "blush-highlighter",
+   "productType": "Blush",
+   "kind": "blush",
+   "price": 2100,
+   "originalPrice": null,
+   "stock": 33,
+   "rating": 4.7,
+   "reviews": 97,
+   "addedAt": "2026-08-25",
+   "bestseller": true,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A finely milled powder blush that blends into a soft, natural flush.",
+   "features": [
+    "Buildable colour",
+    "Silky powder"
+   ],
+   "specs": {
+    "Finish": "Satin",
+    "Net weight": "5 g"
+   },
+   "usage": "Sweep onto the apples of the cheeks and blend up towards the temples.",
+   "images": [
+    "/assets/images/products/cheek-bloom-blush-1.jpg",
+    "/assets/images/products/cheek-bloom-blush-2.jpg",
+    "/assets/images/products/cheek-bloom-blush-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Dusty Rose",
+     "hex": "#C97A86"
+    },
+    {
+     "name": "Apricot",
+     "hex": "#E09A7D"
+    },
+    {
+     "name": "Plum Flush",
+     "hex": "#9E5465"
+    }
+   ],
+   "items": [],
+   "tone": "mauve",
+   "sku": "HM-CBB-570"
+  },
+  {
+   "id": "golden-hour-highlighter",
+   "type": "product",
+   "name": "Golden Hour Highlighter",
+   "brand": "atelier-nur",
+   "category": "blush-highlighter",
+   "productType": "Highlighter",
+   "kind": "highlighter",
+   "price": 2350,
+   "originalPrice": 2800,
+   "stock": 21,
+   "rating": 4.8,
+   "reviews": 156,
+   "addedAt": "2026-09-28",
+   "bestseller": false,
+   "isNew": true,
+   "featured": false,
+   "status": "published",
+   "description": "A luminous highlighter with a smooth, reflective finish for cheekbones and brow bones.",
+   "features": [
+    "Pearlescent glow",
+    "Smooth, non-chalky"
+   ],
+   "specs": {
+    "Finish": "Luminous",
+    "Net weight": "6 g"
+   },
+   "usage": "Apply to the high points of the face with a fan or small tapered brush.",
+   "images": [
+    "/assets/images/products/golden-hour-highlighter-1.jpg",
+    "/assets/images/products/golden-hour-highlighter-2.jpg",
+    "/assets/images/products/golden-hour-highlighter-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Champagne",
+     "hex": "#E9D0AE"
+    },
+    {
+     "name": "Rose Gold",
+     "hex": "#E2B3A2"
+    }
+   ],
+   "items": [],
+   "tone": "sand",
+   "sku": "HM-GHH-830"
+  },
+  {
+   "id": "cream-blush-stick",
+   "type": "product",
+   "name": "Cream Blush",
+   "brand": "rangoli",
+   "category": "blush-highlighter",
+   "productType": "Blush",
+   "kind": "concealer",
+   "price": 1650,
+   "originalPrice": null,
+   "stock": 12,
+   "rating": 4.3,
+   "reviews": 64,
+   "addedAt": "2026-10-04",
+   "bestseller": false,
+   "isNew": true,
+   "featured": false,
+   "status": "published",
+   "description": "A sheer cream blush that melts into skin for a dewy look.",
+   "features": [
+    "Dewy finish",
+    "Can be used on lips"
+   ],
+   "specs": {
+    "Finish": "Dewy",
+    "Volume": "7 ml"
+   },
+   "usage": "Dab onto cheeks and blend with fingertips.",
+   "images": [
+    "/assets/images/products/cream-blush-stick-1.jpg",
+    "/assets/images/products/cream-blush-stick-2.jpg",
+    "/assets/images/products/cream-blush-stick-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Rose",
+     "hex": "#C46C7C"
+    },
+    {
+     "name": "Coral",
+     "hex": "#E08770"
+    }
+   ],
+   "items": [],
+   "tone": "rose",
+   "sku": "HM-CBS-475"
+  },
+  {
+   "id": "desert-rose-palette",
+   "type": "product",
+   "name": "Desert Rose Eyeshadow Palette",
+   "brand": "maison-kohl",
+   "category": "eye-makeup",
+   "productType": "Eyeshadow palette",
+   "kind": "palette",
+   "price": 4200,
+   "originalPrice": 4800,
+   "stock": 15,
+   "rating": 4.9,
+   "reviews": 356,
+   "addedAt": "2026-07-30",
+   "bestseller": true,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Eight warm neutrals and roses in matte and shimmer finishes, from everyday to evening.",
+   "features": [
+    "8 shades: 5 matte, 3 shimmer",
+    "Blendable, rich pigment"
+   ],
+   "specs": {
+    "Shades": "8",
+    "Net weight": "8 × 1.2 g"
+   },
+   "usage": "Use a fluffy brush for transition shades and a flat brush to pack shimmers onto the lid.",
+   "images": [
+    "/assets/images/products/desert-rose-palette-1.jpg",
+    "/assets/images/products/desert-rose-palette-2.jpg",
+    "/assets/images/products/desert-rose-palette-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "nude",
+   "sku": "HM-DRP-638"
+  },
+  {
+   "id": "midnight-kohl-liner",
+   "type": "product",
+   "name": "Midnight Kohl Eyeliner",
+   "brand": "maison-kohl",
+   "category": "eye-makeup",
+   "productType": "Eyeliner",
+   "kind": "eyeliner",
+   "price": 950,
+   "originalPrice": null,
+   "stock": 80,
+   "rating": 4.6,
+   "reviews": 520,
+   "addedAt": "2026-03-14",
+   "bestseller": true,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A smudge-resistant kohl for tightlining, smoky eyes and precise wings.",
+   "features": [
+    "Smudge-resistant",
+    "Soft, glide-on texture"
+   ],
+   "specs": {
+    "Finish": "Matte",
+    "Net weight": "1.1 g"
+   },
+   "usage": "Draw along the lash line and smudge if you like a softer look.",
+   "images": [
+    "/assets/images/products/midnight-kohl-liner-1.jpg",
+    "/assets/images/products/midnight-kohl-liner-2.jpg",
+    "/assets/images/products/midnight-kohl-liner-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Jet Black",
+     "hex": "#1F1719"
+    },
+    {
+     "name": "Espresso",
+     "hex": "#4A2E28"
+    }
+   ],
+   "items": [],
+   "tone": "stone",
+   "sku": "HM-MKL-509"
+  },
+  {
+   "id": "lift-define-mascara",
+   "type": "product",
+   "name": "Lift and Define Mascara",
+   "brand": "maison-kohl",
+   "category": "eye-makeup",
+   "productType": "Mascara",
+   "kind": "mascara",
+   "price": 1750,
+   "originalPrice": null,
+   "stock": 47,
+   "rating": 4.4,
+   "reviews": 208,
+   "addedAt": "2026-05-22",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A lengthening mascara that separates and lifts lashes without clumping.",
+   "features": [
+    "Lengthening",
+    "Curved brush"
+   ],
+   "specs": {
+    "Volume": "9 ml"
+   },
+   "usage": "Wiggle the wand from root to tip. Add a second coat while still wet.",
+   "images": [
+    "/assets/images/products/lift-define-mascara-1.jpg",
+    "/assets/images/products/lift-define-mascara-2.jpg",
+    "/assets/images/products/lift-define-mascara-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Black",
+     "hex": "#1F1719"
+    }
+   ],
+   "items": [],
+   "tone": "ivory",
+   "sku": "HM-LDM-167"
+  },
+  {
+   "id": "precision-liquid-liner",
+   "type": "product",
+   "name": "Precision Liquid Liner",
+   "brand": "velour",
+   "category": "eye-makeup",
+   "productType": "Eyeliner",
+   "kind": "eyeliner",
+   "price": 1250,
+   "originalPrice": 1500,
+   "stock": 0,
+   "rating": 4.5,
+   "reviews": 143,
+   "addedAt": "2026-02-10",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A fine felt-tip liner for crisp, long-wearing lines.",
+   "features": [
+    "Felt tip",
+    "Quick-drying"
+   ],
+   "specs": {
+    "Volume": "0.6 ml"
+   },
+   "usage": "Draw short strokes along the lash line, then connect.",
+   "images": [
+    "/assets/images/products/precision-liquid-liner-1.jpg",
+    "/assets/images/products/precision-liquid-liner-2.jpg",
+    "/assets/images/products/precision-liquid-liner-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Black",
+     "hex": "#1F1719"
+    }
+   ],
+   "items": [],
+   "tone": "stone",
+   "sku": "HM-PLL-462"
+  },
+  {
+   "id": "blur-primer",
+   "type": "product",
+   "name": "Pore Blur Primer",
+   "brand": "lumiere",
+   "category": "face-makeup",
+   "productType": "Primer",
+   "kind": "primer",
+   "price": 2250,
+   "originalPrice": null,
+   "stock": 29,
+   "rating": 4.5,
+   "reviews": 176,
+   "addedAt": "2026-06-02",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A silky primer that softens the look of pores and helps makeup last longer.",
+   "features": [
+    "Smoothing",
+    "Lightweight"
+   ],
+   "specs": {
+    "Volume": "30 ml"
+   },
+   "usage": "Apply a small amount after moisturiser, before foundation.",
+   "images": [
+    "/assets/images/products/blur-primer-1.jpg",
+    "/assets/images/products/blur-primer-2.jpg",
+    "/assets/images/products/blur-primer-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "blush",
+   "sku": "HM-BP-350"
+  },
+  {
+   "id": "soft-glow-powder",
+   "type": "product",
+   "name": "Soft Glow Pressed Powder",
+   "brand": "studio",
+   "category": "face-makeup",
+   "productType": "Powder",
+   "kind": "compact",
+   "price": 2650,
+   "originalPrice": null,
+   "stock": 36,
+   "rating": 4.5,
+   "reviews": 141,
+   "addedAt": "2026-04-29",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A finely milled pressed powder that sets makeup with a soft, skin-like finish.",
+   "features": [
+    "Sets without caking",
+    "Portable compact with mirror"
+   ],
+   "specs": {
+    "Finish": "Soft matte",
+    "Net weight": "9 g"
+   },
+   "usage": "Press lightly over the T-zone and wherever you need to set makeup.",
+   "images": [
+    "/assets/images/products/soft-glow-powder-1.jpg",
+    "/assets/images/products/soft-glow-powder-2.jpg",
+    "/assets/images/products/soft-glow-powder-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Porcelain",
+     "hex": "#F2D9C4"
+    },
+    {
+     "name": "Ivory Beige",
+     "hex": "#E7C6A8"
+    },
+    {
+     "name": "Warm Sand",
+     "hex": "#D7AE88"
+    },
+    {
+     "name": "Honey",
+     "hex": "#C4925F"
+    }
+   ],
+   "items": [],
+   "tone": "sand",
+   "sku": "HM-SGP-448"
+  },
+  {
+   "id": "all-day-setting-spray",
+   "type": "product",
+   "name": "All-Day Setting Spray",
+   "brand": "atelier-nur",
+   "category": "face-makeup",
+   "productType": "Setting spray",
+   "kind": "spray",
+   "price": 2450,
+   "originalPrice": null,
+   "stock": 40,
+   "rating": 4.6,
+   "reviews": 86,
+   "addedAt": "2026-09-03",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A fine mist that locks makeup in place through long days.",
+   "features": [
+    "Fine, even mist",
+    "Refreshing feel"
+   ],
+   "specs": {
+    "Volume": "100 ml"
+   },
+   "usage": "Hold 20 cm from the face and mist in an X and T shape.",
+   "images": [
+    "/assets/images/products/all-day-setting-spray-1.jpg",
+    "/assets/images/products/all-day-setting-spray-2.jpg",
+    "/assets/images/products/all-day-setting-spray-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "ivory",
+   "sku": "HM-ADSS-370"
+  },
+  {
+   "id": "translucent-setting-powder",
+   "type": "product",
+   "name": "Translucent Setting Powder",
+   "brand": "velour",
+   "category": "face-makeup",
+   "productType": "Powder",
+   "kind": "powder",
+   "price": 2850,
+   "originalPrice": 3200,
+   "stock": 9,
+   "rating": 4.7,
+   "reviews": 219,
+   "addedAt": "2026-08-14",
+   "bestseller": true,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A weightless loose powder to set concealer and control shine.",
+   "features": [
+    "Universal translucent shade",
+    "Weightless"
+   ],
+   "specs": {
+    "Net weight": "15 g"
+   },
+   "usage": "Press onto skin with a puff, then dust off excess.",
+   "images": [
+    "/assets/images/products/translucent-setting-powder-1.jpg",
+    "/assets/images/products/translucent-setting-powder-2.jpg",
+    "/assets/images/products/translucent-setting-powder-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Translucent",
+     "hex": "#EFE3D7"
+    }
+   ],
+   "items": [],
+   "tone": "stone",
+   "sku": "HM-TSP-201"
+  },
+  {
+   "id": "signature-brush-set",
+   "type": "product",
+   "name": "Signature Brush Set",
+   "brand": "studio",
+   "category": "brushes-tools",
+   "productType": "Brush set",
+   "kind": "brushes",
+   "price": 3650,
+   "originalPrice": 4200,
+   "stock": 22,
+   "rating": 4.8,
+   "reviews": 134,
+   "addedAt": "2026-07-08",
+   "bestseller": false,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Three essential brushes for face, cheeks and eyes, with soft synthetic bristles.",
+   "features": [
+    "3 brushes",
+    "Soft synthetic bristles",
+    "Weighted handles"
+   ],
+   "specs": {
+    "Pieces": "3"
+   },
+   "usage": "Wash weekly with mild soap and lay flat to dry.",
+   "images": [
+    "/assets/images/products/signature-brush-set-1.jpg",
+    "/assets/images/products/signature-brush-set-2.jpg",
+    "/assets/images/products/signature-brush-set-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "nude",
+   "sku": "HM-SBS-262"
+  },
+  {
+   "id": "blending-sponge",
+   "type": "product",
+   "name": "Blending Sponge",
+   "brand": "rangoli",
+   "category": "brushes-tools",
+   "productType": "Beauty tool",
+   "kind": "sponge",
+   "price": 650,
+   "originalPrice": null,
+   "stock": 120,
+   "rating": 4.5,
+   "reviews": 388,
+   "addedAt": "2026-01-20",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A soft, bouncy sponge for seamless foundation and concealer.",
+   "features": [
+    "Use damp or dry",
+    "Pointed tip for detail"
+   ],
+   "specs": {
+    "Pieces": "1"
+   },
+   "usage": "Dampen, squeeze out water and bounce over the skin.",
+   "images": [
+    "/assets/images/products/blending-sponge-1.jpg",
+    "/assets/images/products/blending-sponge-2.jpg",
+    "/assets/images/products/blending-sponge-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Blush",
+     "hex": "#E8A6A9"
+    }
+   ],
+   "items": [],
+   "tone": "blush",
+   "sku": "HM-BS-646"
+  },
+  {
+   "id": "hydrating-rose-serum",
+   "type": "product",
+   "name": "Rosewater Hydrating Serum",
+   "brand": "lumiere",
+   "category": "beauty-essentials",
+   "productType": "Skincare",
+   "kind": "serum",
+   "price": 3150,
+   "originalPrice": null,
+   "stock": 24,
+   "rating": 4.8,
+   "reviews": 174,
+   "addedAt": "2026-10-08",
+   "bestseller": false,
+   "isNew": true,
+   "featured": false,
+   "status": "published",
+   "description": "A lightweight serum that leaves skin feeling hydrated and ready for makeup.",
+   "features": [
+    "Lightweight",
+    "Absorbs quickly"
+   ],
+   "specs": {
+    "Volume": "30 ml"
+   },
+   "usage": "Apply 2–3 drops morning and evening before moisturiser.",
+   "images": [
+    "/assets/images/products/hydrating-rose-serum-1.jpg",
+    "/assets/images/products/hydrating-rose-serum-2.jpg",
+    "/assets/images/products/hydrating-rose-serum-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "rose",
+   "sku": "HM-HRS-309"
+  },
+  {
+   "id": "overnight-repair-cream",
+   "type": "product",
+   "name": "Overnight Repair Cream",
+   "brand": "atelier-nur",
+   "category": "beauty-essentials",
+   "productType": "Skincare",
+   "kind": "cream",
+   "price": 3800,
+   "originalPrice": null,
+   "stock": 14,
+   "rating": 4.6,
+   "reviews": 122,
+   "addedAt": "2026-05-30",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A rich night cream for soft, comfortable skin by morning.",
+   "features": [
+    "Rich texture",
+    "For normal to dry skin"
+   ],
+   "specs": {
+    "Volume": "50 ml"
+   },
+   "usage": "Massage into face and neck at night.",
+   "images": [
+    "/assets/images/products/overnight-repair-cream-1.jpg",
+    "/assets/images/products/overnight-repair-cream-2.jpg",
+    "/assets/images/products/overnight-repair-cream-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "ivory",
+   "sku": "HM-ORC-269"
+  },
+  {
+   "id": "makeup-remover-mist",
+   "type": "product",
+   "name": "Gentle Makeup Remover",
+   "brand": "rangoli",
+   "category": "beauty-essentials",
+   "productType": "Skincare",
+   "kind": "spray",
+   "price": 1350,
+   "originalPrice": null,
+   "stock": 55,
+   "rating": 4.4,
+   "reviews": 92,
+   "addedAt": "2026-03-03",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A gentle remover that lifts makeup without tugging.",
+   "features": [
+    "Gentle",
+    "Leaves no oily residue"
+   ],
+   "specs": {
+    "Volume": "150 ml"
+   },
+   "usage": "Apply to a cotton pad and sweep over the skin.",
+   "images": [
+    "/assets/images/products/makeup-remover-mist-1.jpg",
+    "/assets/images/products/makeup-remover-mist-2.jpg",
+    "/assets/images/products/makeup-remover-mist-3.jpg"
+   ],
+   "shades": [],
+   "items": [],
+   "tone": "mauve",
+   "sku": "HM-MRM-462"
+  },
+  {
+   "id": "lash-curler-pro",
+   "type": "product",
+   "name": "Lash Curler",
+   "brand": "studio",
+   "category": "brushes-tools",
+   "productType": "Beauty tool",
+   "kind": "eyeliner",
+   "price": 1100,
+   "originalPrice": null,
+   "stock": 31,
+   "rating": 4.3,
+   "reviews": 77,
+   "addedAt": "2026-06-15",
+   "bestseller": false,
+   "isNew": false,
+   "featured": false,
+   "status": "published",
+   "description": "A precise curler with a gentle silicone pad.",
+   "features": [
+    "Fits most eye shapes",
+    "Replacement pad included"
+   ],
+   "specs": {
+    "Pieces": "1"
+   },
+   "usage": "Clamp gently at the lash base for a few seconds.",
+   "images": [
+    "/assets/images/products/lash-curler-pro-1.jpg",
+    "/assets/images/products/lash-curler-pro-2.jpg",
+    "/assets/images/products/lash-curler-pro-3.jpg"
+   ],
+   "shades": [
+    {
+     "name": "Gold",
+     "hex": "#C8A27A"
+    }
+   ],
+   "items": [],
+   "tone": "stone",
+   "sku": "HM-LCP-790"
+  },
+  {
+   "id": "everyday-glow-deal",
+   "type": "bundle",
+   "name": "Everyday Glow Deal",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4499,
+   "originalPrice": null,
+   "stock": 18,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-09-01",
+   "bestseller": true,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Foundation, lipstick and mascara: the three products most people reach for every morning.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "3"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/everyday-glow-deal-1.jpg",
+    "/assets/images/products/everyday-glow-deal-2.jpg",
+    "/assets/images/products/second-skin-foundation-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Second Skin Foundation",
+     "image": "/assets/images/products/second-skin-foundation-1.jpg"
+    },
+    {
+     "name": "Velvet Matte Lipstick",
+     "image": "/assets/images/products/velvet-matte-lipstick-1.jpg"
+    },
+    {
+     "name": "Lift and Define Mascara",
+     "image": "/assets/images/products/lift-define-mascara-1.jpg"
+    }
+   ],
+   "tone": "blush",
+   "sku": "HM-EGD-114"
+  },
+  {
+   "id": "bridal-guest-edit",
+   "type": "bundle",
+   "name": "Bridal Guest Edit",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4999,
+   "originalPrice": null,
+   "stock": 9,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-10-01",
+   "bestseller": false,
+   "isNew": true,
+   "featured": true,
+   "status": "published",
+   "description": "A soft-glam set for mehndi, baraat and walima: warm eyes, defined liner and a long-wearing lip.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "3"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/bridal-guest-edit-1.jpg",
+    "/assets/images/products/bridal-guest-edit-2.jpg",
+    "/assets/images/products/desert-rose-palette-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Desert Rose Eyeshadow Palette",
+     "image": "/assets/images/products/desert-rose-palette-1.jpg"
+    },
+    {
+     "name": "Velvet Matte Lipstick",
+     "image": "/assets/images/products/velvet-matte-lipstick-1.jpg"
+    },
+    {
+     "name": "Midnight Kohl Eyeliner",
+     "image": "/assets/images/products/midnight-kohl-liner-1.jpg"
+    }
+   ],
+   "tone": "rose",
+   "sku": "HM-BGE-720"
+  },
+  {
+   "id": "flawless-base-kit",
+   "type": "bundle",
+   "name": "Flawless Base Kit",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4650,
+   "originalPrice": null,
+   "stock": 14,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-09-01",
+   "bestseller": true,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Everything for an even, natural base: foundation, concealer and a sponge to blend them.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "3"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/flawless-base-kit-1.jpg",
+    "/assets/images/products/flawless-base-kit-2.jpg",
+    "/assets/images/products/second-skin-foundation-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Second Skin Foundation",
+     "image": "/assets/images/products/second-skin-foundation-1.jpg"
+    },
+    {
+     "name": "Soft Blur Concealer",
+     "image": "/assets/images/products/soft-blur-concealer-1.jpg"
+    },
+    {
+     "name": "Blending Sponge",
+     "image": "/assets/images/products/blending-sponge-1.jpg"
+    }
+   ],
+   "tone": "nude",
+   "sku": "HM-FBK-986"
+  },
+  {
+   "id": "lip-lovers-trio",
+   "type": "bundle",
+   "name": "Lip Lover’s Trio",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4150,
+   "originalPrice": null,
+   "stock": 22,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-09-01",
+   "bestseller": false,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Liner, lipstick, gloss and balm for every lip look from day to night.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "4"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/lip-lovers-trio-1.jpg",
+    "/assets/images/products/lip-lovers-trio-2.jpg",
+    "/assets/images/products/velvet-matte-lipstick-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Velvet Matte Lipstick",
+     "image": "/assets/images/products/velvet-matte-lipstick-1.jpg"
+    },
+    {
+     "name": "Satin Shine Lip Gloss",
+     "image": "/assets/images/products/satin-lip-gloss-1.jpg"
+    },
+    {
+     "name": "Sculpt Lip Liner",
+     "image": "/assets/images/products/sculpt-lip-liner-1.jpg"
+    },
+    {
+     "name": "Tinted Lip Balm",
+     "image": "/assets/images/products/tinted-lip-balm-1.jpg"
+    }
+   ],
+   "tone": "mauve",
+   "sku": "HM-LLT-611"
+  },
+  {
+   "id": "cheek-glow-set",
+   "type": "bundle",
+   "name": "Cheek and Glow Set",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4799,
+   "originalPrice": null,
+   "stock": 0,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-09-01",
+   "bestseller": false,
+   "isNew": false,
+   "featured": true,
+   "status": "published",
+   "description": "Blush, highlighter and setting spray for a fresh, lit-from-within finish.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "3"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/cheek-glow-set-1.jpg",
+    "/assets/images/products/cheek-glow-set-2.jpg",
+    "/assets/images/products/cheek-bloom-blush-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Cheek Bloom Blush",
+     "image": "/assets/images/products/cheek-bloom-blush-1.jpg"
+    },
+    {
+     "name": "Golden Hour Highlighter",
+     "image": "/assets/images/products/golden-hour-highlighter-1.jpg"
+    },
+    {
+     "name": "All-Day Setting Spray",
+     "image": "/assets/images/products/all-day-setting-spray-1.jpg"
+    }
+   ],
+   "tone": "sand",
+   "sku": "HM-CGS-205"
+  },
+  {
+   "id": "smoky-eye-deal",
+   "type": "bundle",
+   "name": "Smoky Eye Deal",
+   "brand": "studio",
+   "category": "makeup-bundles",
+   "productType": "Makeup bundle",
+   "kind": "bundle",
+   "price": 4899,
+   "originalPrice": null,
+   "stock": 11,
+   "rating": 4.8,
+   "reviews": 90,
+   "addedAt": "2026-09-25",
+   "bestseller": false,
+   "isNew": true,
+   "featured": true,
+   "status": "published",
+   "description": "Palette, kohl and mascara for smoky evening eyes.",
+   "features": [
+    "Curated by the Begum Beauty team",
+    "Each product is full size",
+    "Shades chosen at checkout via support chat"
+   ],
+   "specs": {
+    "Items": "3"
+   },
+   "usage": "",
+   "images": [
+    "/assets/images/products/smoky-eye-deal-1.jpg",
+    "/assets/images/products/smoky-eye-deal-2.jpg",
+    "/assets/images/products/desert-rose-palette-1.jpg"
+   ],
+   "shades": [],
+   "items": [
+    {
+     "name": "Desert Rose Eyeshadow Palette",
+     "image": "/assets/images/products/desert-rose-palette-1.jpg"
+    },
+    {
+     "name": "Midnight Kohl Eyeliner",
+     "image": "/assets/images/products/midnight-kohl-liner-1.jpg"
+    },
+    {
+     "name": "Lift and Define Mascara",
+     "image": "/assets/images/products/lift-define-mascara-1.jpg"
+    }
+   ],
+   "tone": "stone",
+   "sku": "HM-SED-939"
+  }
+ ],
+ "testimonials": [
+  {
+   "id": "sample-0",
+   "name": "Ayesha",
+   "city": "Lahore",
+   "rating": 5,
+   "text": "The Everyday Glow Deal had everything I wear daily. Arrived the same day in Lahore.",
+   "image": "",
+   "active": true,
+   "sample": true,
+   "sort": 0
+  },
+  {
+   "id": "sample-1",
+   "name": "Sana",
+   "city": "Karachi",
+   "rating": 5,
+   "text": "I liked being able to open the parcel before paying. The foundation shade matched well.",
+   "image": "",
+   "active": true,
+   "sample": true,
+   "sort": 1
+  },
+  {
+   "id": "sample-2",
+   "name": "Maryam",
+   "city": "Islamabad",
+   "rating": 4,
+   "text": "Ordered the Bridal Guest Edit for a wedding. The palette works for day and evening.",
+   "image": "",
+   "active": true,
+   "sample": true,
+   "sort": 2
+  }
+ ],
+ "banners": {
+  "campaign": {
+   "title": "The Bridal Guest Edit",
+   "text": "Warm eyes, defined liner and a lip that lasts from mehndi to walima. Three full-size products in one deal.",
+   "cta": "Shop the edit",
+   "link": "/product/bridal-guest-edit",
+   "image": "/assets/images/campaign/bridal-edit.jpg"
+  },
+  "promoA": {
+   "title": "Winter glow",
+   "text": "Hydrating prep and a breathable foundation for dry-season skin.",
+   "cta": "Shop beauty essentials",
+   "link": "/shop?category=beauty-essentials",
+   "image": "/assets/images/campaign/winter-glow.jpg"
+  },
+  "promoB": {
+   "title": "The lip studio",
+   "text": "Velvet Matte Lipstick in five shades chosen for South Asian skin tones.",
+   "cta": "Find your shade",
+   "link": "/product/velvet-matte-lipstick",
+   "image": "/assets/images/campaign/lip-studio.jpg"
+  }
+ },
+ "settings": {
+  "store": {
+   "storeName": "The Begum Beauty",
+   "tagline": "Makeup and beauty essentials, delivered across Pakistan.",
+   "phone": "0336 1877730",
+   "whatsapp": "923361877730",
+   "email": "support@your-domain.pk",
+   "address": "Lahore, Pakistan",
+   "instagram": "https://www.instagram.com/",
+   "facebook": "https://www.facebook.com/",
+   "tiktok": "https://www.tiktok.com/",
+   "youtube": "https://www.youtube.com/",
+   "seoTitle": "The Begum Beauty | Buy Makeup Online in Pakistan",
+   "seoDescription": "Shop makeup online in Pakistan at The Begum Beauty. Curated makeup deals under PKR 4,999, free delivery nationwide, same-day delivery in Lahore and cash on delivery."
+  },
+  "myo": {
+   "active": true,
+   "percent": 15,
+   "min": 2
+  }
+ }
+}
