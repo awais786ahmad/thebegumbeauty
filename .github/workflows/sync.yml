@@ -17,7 +17,9 @@ jobs:
       - name: Push to Destination Repository
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.ACTION_TOKEN }}
           repository: awais786ahmad/thebegumbeauty
           branch: main
           force: true
+          github_url: github.com
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ACTION_TOKEN }}
