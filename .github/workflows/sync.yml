@@ -1,0 +1,27 @@
+name: Sync to Destination Repo
+
+on:
+  push:
+    branches:
+      - main  # Change to 'master' if your source repo uses master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Destination Repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.ACTION_TOKEN }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'awais786ahmad'
+          destination-repository-name: 'thebegumbeauty'
+          user-email: 'awaisahmad.freelancer@gmail.com'  # Replace with your GitHub email address
+          commit-message: 'Automatically synced from source repo [skip ci]'
+          target-branch: 'main'  # Change if your destination branch is master or dev
