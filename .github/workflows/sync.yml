@@ -3,7 +3,7 @@ name: Sync to Destination Repo
 on:
   push:
     branches:
-      - main  # Change to 'master' if your default branch is master
+      - main
 
 jobs:
   sync:
@@ -14,12 +14,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Push to Destination Repository
-        uses: ad-m/github-push-action@master
-        with:
-          repository: awais786ahmad/thebegumbeauty
-          branch: main
-          force: true
-          github_url: github.com
+      - name: Push to Destination Repo
         env:
-          API_TOKEN_GITHUB: ${{ secrets.ACTION_TOKEN }}
+          ACTION_TOKEN: ${{ secrets.ACTION_TOKEN }}
+        run: |
+          git remote set-url origin https://x-access-token:${ACTION_TOKEN}@github.com/awais786ahmad/thebegumbeauty.git
+          git config --global user.name "awais786ahmad"
+          git config --global user.name "awaisahmad.freelancer@gmail.com"
+          git push https://x-access-token:${ACTION_TOKEN}@github.com/awais786ahmad/thebegumbeauty.git main --force
