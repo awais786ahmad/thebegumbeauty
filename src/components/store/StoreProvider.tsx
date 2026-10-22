@@ -1,6 +1,7 @@
 'use client';
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import type { StoreData } from '@/lib/data';
+import { track } from '@/lib/meta';
 import { cartTotals, type Totals } from '@/lib/pricing';
 import type { CartLine, Product } from '@/lib/types';
 
@@ -84,6 +85,7 @@ export default function StoreProvider({ data, children }: { data: StoreData; chi
     const f = next.find((l) => l.id === id && l.shade === shade);
     if (f) f.qty = Math.min(f.qty + qty, p.stock); else next.push({ id, qty: Math.min(qty, p.stock), shade });
     save(next);
+    track('AddToCart', { content_ids: [id], content_name: p.name, content_type: 'product', value: p.price * qty, currency: 'PKR' });
     const after = cartTotals(next, (x) => map.get(x), data.myo);
     if (after.myoActive && !before.myoActive) showToast({ msg: `Make Your Own Deal unlocked: ${data.myo.percent}% off your products`, href: '/cart', label: 'View bag' });
     else if (!silent) showToast({ msg: `${p.name} added to your bag${after.myoNeed > 0 && after.myoUnits > 0 ? `. Add ${after.myoNeed} more for ${data.myo.percent}% off` : ''}`, href: '/cart', label: 'View bag' });

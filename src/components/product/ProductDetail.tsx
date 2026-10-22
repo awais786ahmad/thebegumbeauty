@@ -9,6 +9,7 @@ import { MyoProductNote } from '@/components/store/Myo';
 import { WishButton } from '@/components/store/ProductCard';
 import { useStore } from '@/components/store/StoreProvider';
 import { discountPct, fmt } from '@/lib/format';
+import { track } from '@/lib/meta';
 import type { Product } from '@/lib/types';
 
 export default function ProductDetail({ p, fbt }: { p: Product; fbt: Product[] }) {
@@ -23,6 +24,10 @@ export default function ProductDetail({ p, fbt }: { p: Product; fbt: Product[] }
   const [zoom, setZoom] = useState<string | null>(null);
   const [lightbox, setLightbox] = useState(false);
   const shade = p.shades.length ? p.shades[shadeIdx].name : null;
+
+  useEffect(() => {
+    track('ViewContent', { content_ids: [p.id], content_name: p.name, content_type: 'product', value: p.price, currency: 'PKR' });
+  }, [p.id, p.name, p.price]);
 
   const addBtn = useRef<HTMLButtonElement>(null);
   const [sticky, setSticky] = useState(false);

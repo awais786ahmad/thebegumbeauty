@@ -1,4 +1,7 @@
 'use server';
+import { cookies, headers } from 'next/headers';
+import { after } from 'next/server';
+import { sendPurchase } from '@/lib/meta-capi';
 import { isSupabaseConfigured } from '@/lib/supabase/env';
 import { supabasePublic } from '@/lib/supabase/server';
 import { PHONE_RE } from '@/lib/format';
@@ -33,5 +36,15 @@ export async function placeOrder(customer: PlaceOrderInput, lines: CartLine[]): 
     return { ok: false, error: MESSAGES[code] ?? 'We couldn’t place your order. Please try again or contact us on WhatsApp.' };
   }
   const r = data as { order_no: string; total: number; myo_discount: number };
+
+  // Read the request details now; after() runs once the customer already has their confirmation.
+  const [h, c] = await Promise.all([headers(), cookies()]);
+  const purchase = {
+    orderNo: r.order_no, total: r.total, items, name: customer.name, phone, city: customer.city,
+    ip: h.get('x-forwarded-for')?.split(',')[0].trim() || h.get('x-real-ip') || undefined, userAgent: h.get('user-agent') ?? undefined,
+    fbp: c.get('_fbp')?.value, fbc: c.get('_fbc')?.value,
+  };
+  after(() => sendPurchase(purchase));
+
   return { ok: true, orderNo: r.order_no, total: r.total, myoDiscount: r.myo_discount };
 }

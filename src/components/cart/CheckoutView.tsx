@@ -1,11 +1,12 @@
 'use client';
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import { useRef, useState, useTransition } from 'react';
+import { useEffect, useRef, useState, useTransition } from 'react';
 import { placeOrder, type PlaceOrderInput } from '@/app/(store)/actions';
 import Icon from '@/components/Icon';
 import { useStore } from '@/components/store/StoreProvider';
 import { CITIES, PHONE_RE, deliveryEstimate, fmt } from '@/lib/format';
+import { track } from '@/lib/meta';
 import Summary from './Summary';
 
 type Field = keyof PlaceOrderInput;
@@ -26,6 +27,13 @@ export default function CheckoutView() {
   const [done, setDone] = useState<Confirmed | null>(null);
   const [pending, start] = useTransition();
   const formRef = useRef<HTMLFormElement>(null);
+
+  const checkoutSent = useRef(false);
+  useEffect(() => {
+    if (!ready || !lines.length || checkoutSent.current) return;
+    checkoutSent.current = true;
+    track('InitiateCheckout', { content_ids: lines.map((l) => l.id), content_type: 'product', num_items: lines.reduce((a, l) => a + l.qty, 0), value: totals.total, currency: 'PKR' });
+  }, [ready, lines, totals.total]);
 
   const set = (k: Field) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const v = e.target.value; setForm((f) => ({ ...f, [k]: v }));
@@ -72,6 +80,7 @@ export default function CheckoutView() {
     start(async () => {
       const r = await placeOrder(form, lines);
       if (!r.ok) { setAlert(r.error); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+      track('Purchase', { content_ids: lines.map((l) => l.id), contents: lines.map((l) => ({ id: l.id, quantity: l.qty })), content_type: 'product', value: r.total, currency: 'PKR' }, r.orderNo);
       clear(); setDone({ orderNo: r.orderNo, total: r.total, myoDiscount: r.myoDiscount, name: form.name.trim(), city: form.city, items: snapshot });
       window.scrollTo({ top: 0 });
     });

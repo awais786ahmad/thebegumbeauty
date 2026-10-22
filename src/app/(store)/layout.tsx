@@ -1,6 +1,7 @@
 import Announce from '@/components/store/Announce';
 import Footer from '@/components/store/Footer';
 import Header from '@/components/store/Header';
+import MetaPixel from '@/components/store/MetaPixel';
 import Overlays from '@/components/store/Overlays';
 import StoreProvider from '@/components/store/StoreProvider';
 import { getStoreData } from '@/lib/data';
@@ -17,6 +18,7 @@ export default async function StoreLayout({ children }: { children: React.ReactN
       <main id="main">{children}</main>
       <Footer />
       <Overlays />
+      <MetaPixel />
     </StoreProvider>
   );
 }
